@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <div className="sticky top-0 z-20">
-        <nav className=" hidden md:block bg-blue-600 dark:bg-gray-700">
+        <nav className=" hidden md:block bg-gray-600 dark:bg-gray-700">
           <div className="py-3 px-4 mx-auto max-w-screen-xl md:px-6">
             <div className="flex justify-between items-center">
               <div className="flex justify-center text-center text-sm font-medium">
