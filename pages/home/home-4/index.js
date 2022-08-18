@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header_4 from "../../../components/Home/Home-4/Header";
 
 function index() {
   return (
-    <div>index</div>
-  )
+    <div>
+      <Header_4 />
+    </div>
+  );
 }
 
-export default index
+export default index;
