@@ -1,4 +1,7 @@
 import React from "react";
+import Image from 'next/image'
+
+
 
 function Hero() {
   return (
@@ -27,10 +30,12 @@ function Hero() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+            <Image
               className="object-cover object-center rounded"
               alt="hero"
               src="https://dummyimage.com/720x600"
+              height={100}
+              width={100}
             />
           </div>
         </div>
