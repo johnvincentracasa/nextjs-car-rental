@@ -1,12 +1,10 @@
 // import bakcground image from public image
 
-import heroBackground from "./../../../public/home_4_images/hero_background_4.jpg";
-
 function HeroSection() {
   return (
     <>
       <section
-        className="text-gray-600 body-font"
+        className="text-gray-600 body-font h-full"
         style={{
           // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');
           background: "linearGradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
@@ -17,7 +15,7 @@ function HeroSection() {
           height: "100%",
         }}
       >
-        <div className="container mx-auto flex px-4 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-4 py-24 md:flex-row flex-col items-center h-[80vh]">
           <div className="lg:flex-grow flex flex-col md:items-start md:text-left items-center text-center  md:w-1/2 w-5/6 mb-10 md:mb-0 max-w-1/2">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Car? We got it all

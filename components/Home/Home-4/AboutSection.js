@@ -32,12 +32,12 @@ const rentCarAdvantages = [
 function AboutSection() {
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font bg-slate-100">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium text-indigo-500 title-font mb-2 text-gray-900">
-                Why Choose EasyTrans?
+              <h1 className="sm:text-3xl text-2xl font-medium text-indigo-500 title-font mb-2">
+                Rent car with EasyTrans!
               </h1>
               <div className="h-1 w-20 bg-gray-500 rounded"></div>
             </div>

@@ -4,13 +4,13 @@ function Header() {
   return (
     <>
       <header className="text-gray-600 body-font">
-        <div className="container mx-auto flex flex-col flex-wrap p-6 md:flex-row items-center">
-          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto py-2">
+        <div className="container mx-auto flex flex-col flex-wrap p-2 md:flex-row items-center">
+          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto py-1">
             <a className="mr-5 hover:text-indigo-500 cursor-pointer">Home</a>
             <a className="mr-5 hover:text-indigo-500 cursor-pointer">About</a>
-            <a className="mr-5 hover:text-indigo-500 cursor-pointer">Contact</a>
+            <a className="mr-5 hover:text-indigo-500 cursor-pointer">Cars</a>
             <a className="mr-5 hover:text-indigo-500 cursor-pointer">Blog</a>
-            <a className="mr-5 hover:text-indigo-500 cursor-pointer">Careers</a>
+            <a className="mr-5 hover:text-indigo-500 cursor-pointer">Contact</a>
           </nav>
           <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
             <svg
@@ -28,7 +28,7 @@ function Header() {
             <span className="ml-3 text-xl">EasyTrans</span>
           </a>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-            <button className="inline-flex items-center hover:text-indigo-500 bg-indigo-500 border-0 py-1 px-3 border-r-4 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 text-fuchsia-100	">
+            <button className="inline-flex items-center text-gray-500 hover:bg-indigo-500 border-0 py-1 px-3 border-r-4 focus:outline-none bg-gray-200 rounded text-base mt-4 md:mt-0 hover:text-fuchsia-100	">
               Rent A Ride
               <svg
                 fill="none"
@@ -44,6 +44,7 @@ function Header() {
             </button>
           </div>
         </div>
+        <hr className="bg-indigo-500 py-2" />
       </header>
     </>
   );
