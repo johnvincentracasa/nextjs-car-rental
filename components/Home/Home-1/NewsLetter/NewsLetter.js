@@ -10,8 +10,8 @@ export default function NewsLetter() {
             <div className="flex flex-wrap items-center -m-6">
               <div className="w-full md:w-1/2 p-6">
                 <Image
-                height={500}
-                width={800}
+                height={300}
+                width={500}
                   className="relative -left-10"
                   src="/Home-1/car.png"
                   alt=""
