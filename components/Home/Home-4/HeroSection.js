@@ -58,7 +58,7 @@ function HeroSection() {
 
           <div className="max-w-lg lg:w-full ms:ml-4">
             <img
-              className="object-cover object-center rounded h-full w-full object-contain"
+              className=" object-center rounded h-full w-full object-contain"
               alt="hero"
               src="/home_4_images/hero_image.png"
             />
