@@ -6,6 +6,7 @@ import Footer_4 from "../../../components/Home/Home-4/Footer";
 import HeroSection_4 from "../../../components/Home/Home-4/HeroSection";
 import AboutSection_4 from "../../../components/Home/Home-4/AboutSection";
 import BlogSection_4 from "../../../components/Home/Home-4/BlogSection";
+import CarSection_4 from "../../../components/Home/Home-4/CarSection";
 
 function index() {
   return (
@@ -15,6 +16,8 @@ function index() {
       <HeroSection_4 />
 
       <AboutSection_4 />
+
+      <CarSection_4 />
 
       <BlogSection_4 />
 
