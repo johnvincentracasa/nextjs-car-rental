@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function NewsLetter() {
   return (
@@ -8,7 +9,9 @@ export default function NewsLetter() {
           <div className="bg-white overflow-hidden rounded-10 shadow-5xl">
             <div className="flex flex-wrap items-center -m-6">
               <div className="w-full md:w-1/2 p-6">
-                <img
+                <Image
+                height={500}
+                width={800}
                   className="relative -left-10"
                   src="/Home-1/car.png"
                   alt=""
