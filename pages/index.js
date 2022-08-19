@@ -12,7 +12,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-l-lg border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 1
+            HOME 1 - JOEM
           </button>
         </Link>
         <Link href={"/home/home-2"}>
@@ -20,7 +20,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-l-lg border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 2
+            HOME 2 - MARIELLE
           </button>
         </Link>
 
@@ -29,7 +29,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 3
+            HOME 3 - ALDRIN
           </button>
         </Link>
         <Link href={"/home/home-4"}>
@@ -37,7 +37,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 4
+            HOME 4 -VINCENT
           </button>
         </Link>
         <Link href={"/home/home-5"}>
@@ -45,7 +45,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 5
+            HOME 5 - OSEAS
           </button>
         </Link>
         <Link href={"/home/home-6"}>
@@ -53,7 +53,7 @@ export default function Home() {
             type="button"
             className="py-2 px-4 text-sm font-medium text-gray-900 bg-transparent rounded-r-md border border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
           >
-            HOME 6
+            HOME 6 - JORDAN
           </button>
         </Link>
       </div>
