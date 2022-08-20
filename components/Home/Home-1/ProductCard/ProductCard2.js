@@ -4,7 +4,7 @@ import Image from "next/image";
 function ProductCard2() {
   return (
     <>
-      <div className=" max-w-xl mx-auto">
+      <div className=" max-w-screen-xl mx-auto">
         <div className="relative bg-white py-6 px-6 rounded-3xl w-80 my-4 shadow-xl">
           <div className=" text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-teal-500 left-4 -top-6">
             <svg
